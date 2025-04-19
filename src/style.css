@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+input:focus-visible {
+    outline: none;
+}
+html {
+    zoom: 1;
+}
+span.multiselect__tag {
+    background: #000000 !important
+}
+span.multiselect__option--selected.multiselect__option--highlight {
+    background: #000000 !important;
+    }
+span.multiselect__option--highlight {
+    background: #000000 !important;
+    }
+span.multiselect__option--selected.multiselect__option--highlight::after{
+    background: #000000 !important;
+}
+.multiselect__option--highlight::after{
+    background: #000000 !important;
+}
+.swal2-confirm {
+    background-color: #000000 !important;
+}
