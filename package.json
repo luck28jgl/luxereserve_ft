@@ -6,6 +6,7 @@
     "dev": "vite",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "vit build && vite-plugin-gh-pages",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "@vue/compiler-sfc": "^3.5.13",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "vite-plugin-gh-pages": "^1.0.1",
     "vue-loader": "^16.8.3"
   },
   "eslintConfig": {
